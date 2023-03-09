@@ -21,8 +21,8 @@ print("Geef de naam van het eerste product waarvan de naam begint met een 'R'?")
 def search_with_first_letter(letter: str):
     """
     Function returns the name of the first product based of the given letter.
-    :param letter: str, example 'R'
-    :return: str, output RCF V-MAX V35 passieve 15 inch luidspreker 3600W
+    @param letter: str, example 'R'
+    @return: str, output RCF V-MAX V35 passieve 15 inch luidspreker 3600W
     """
     letter = letter.upper()
     for product in all_products:
